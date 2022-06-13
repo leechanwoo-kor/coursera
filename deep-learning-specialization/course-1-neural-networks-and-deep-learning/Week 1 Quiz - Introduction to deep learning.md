@@ -10,10 +10,10 @@
 
 
 ### 2. Which of the following play a major role to achieve a very high level of performance with Deep Learning algorithms?
-- [ ] Deep learning has resulted in significant improvements in important applications such as online advertising, speech recognition, and image recognition.
-- [ ] Better designed features to use.
+<!-- - [ ] Deep learning has resulted in significant improvements in important applications such as online advertising, speech recognition, and image recognition.
+- [ ] Better designed features to use. -->
 - [ ] Smaller models.
-- [ ] Large models.
+- [x] **Large models.**
 - [x] **Large amounts of data.**
 ```
 📌 Some of the most successful Deep Learning algorithms make use of very large datasets for training.
@@ -24,11 +24,11 @@
 
 ![image](https://user-images.githubusercontent.com/55765292/173260545-6cb50c32-b90c-4ec6-ae7d-df4e94b5f6c6.png)
 
-- [x] **Better algorithms allow engineers to get more data and then produce better Deep Learning models.**
+- [ ] Better algorithms allow engineers to get more data and then produce better Deep Learning models.
+- [x] **Improvements in the GPU/CPU hardware enable the discorvery of better Deep Learning algorithms.**
 ```
-📌 New algorithms may help to handle larger amounts of data but no get more data to use in experiments.
+📌 By speeding up the iterative process, better hardware allows researchers to discover better algorithms.
 ```
-- [ ] Improvements in the GPU/CPU hardware enable the discorvery of better Deep Learning algorithms.
 - [x] **Better algorithms can speed up the iterative process by reducing the necessary computation time.**
 ```
 📌 Recall how the introduction of the ReLU activation function helped resuce the time needed to train a model
@@ -118,11 +118,11 @@
 ```
 - [ ] Increasing the size of a neural network generally does not hurt an algorithm's performance, and it may help significantly.
 - [ ] Decreasing the training set size generally does not hurt an algorithm's performance, and it may help significantly.
-- [x] **Increasing the training set size of a traditional learning algorithm always imporves its performace.**
+- [ ] Increasing the training set size of a traditional learning algorithm always imporves its performace.
 ```
 📌 After a certain size, traditional learning algorithms don't improve their performance.
 ```
-- [ ] Increasing the training set size of a traditional learning algorithm stops helping to improve the performance after a certain size.
+- [x] **Increasing the training set size of a traditional learning algorithm stops helping to improve the performance after a certain size.**
 - [x] **Suppose the information given in the diagram is accurate. We can deduce that when using large training sets, for a model to keep improving as the amount of data for training grows, the size of the neural network must grow.**
 ```
 📌 The graph shows that after a certain amount of data is fed to a NN it stops increasing its performance. To increase the performance it is necessary to use a larger model.
@@ -135,7 +135,10 @@
 ```
 📌 Many resources used today to train Deep Learning projects come from the fact that our society digitizes almost everythin, creating a large dataset to train Deep Learning models.
 ```
-- [ ] Limited computational power.
+- [x] **Limited computational power.**
+```
+📌 Deep Learning methods need a lot of computational power, and only recently the use of GPUs has accelerated the experimentation with Deep Learning.
+```
 - [ ] People were afraid of a machine rebellion.
 - [ ] The theoretical tools didn't exist during the 80's.
 
@@ -169,18 +172,18 @@
 - [ ] AI runs on computers and is thus powered by electricity, but it is letting computers do things not possible before.
 - [ ] AI is powering personal devices in our homes and offices, similar to electricity.
 - [ ] Through the “smart grid”, AI is delivering a new wave of electricity.
-- [x] Similar to electricity starting about 100 years ago, AI is transforming multiple industries.
+- [x] **Similar to electricity starting about 100 years ago, AI is transforming multiple industries.**
 ```
 📌 AI is transforming many fields from the car industry to agriculture to supply-chanin...
 ```
 
 
 ### 16. When building a neural network to predict housing price from features like size, the number of bedrooms, zip code, and wealth, it is necessary to come up with other features in between input and output like family size and school quality. True/False?
-- [x] **True**
+- [ ] True
+- [x] **False**
 ```
 📌 Recall that when training a neural network, only the input and output for several examples are given.
 ```
-- [ ] False
 
 
 ### 17. Which of the following are examples of structured data? Choose all that apply.
@@ -214,16 +217,16 @@
 
 
 ### 20. RNNs (Recurrent Neural Networks) are good for data with a temporal component. True/False?
-- [ ] True
-- [x] **False**
+- [x] **True**
+- [ ] False
 ```
-📌 RNN are good to work with sequences, and the elements of the sequence can b e sorted by a temporal component.
+📌 RNN are good to work with sequences, and the elements of the sequence can be sorted by a temporal component.
 ```
 
 
 ### 21. Which of the following are examples of unstructured data? Choose all that apply.
 - [ ] Text describing size and number of pages of books.
-- **[x] Sound files for speech recognition.**
+- [x] **Sound files for speech recognition.**
 ```
 📌 Audio is an example of "unstructured" data.
 ```
