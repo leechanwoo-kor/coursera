@@ -190,3 +190,21 @@
 ```
 📌 The digitalization of our society has played a huge role in this.
 ```
+
+
+### 19. Which of the following are some aspects in which AI has transformed business?
+- [ ] Creating an AI-powered society.
+- [ ] Eliminating the need for health care services.
+- [x] Web searching and advertisement.
+```
+📌 AI has helped to make a fit between services or results and consumers or queries.
+```
+- [ ] AI has not been able to transform businesses.
+
+
+### 20. RNNs (Recurrent Neural Networks) are good for data with a temporal component. True/False?
+- [ ] True
+- [x] False
+```
+📌 RNN are good to work with sequences, and the elements of the sequence can b e sorted by a temporal component.
+```
