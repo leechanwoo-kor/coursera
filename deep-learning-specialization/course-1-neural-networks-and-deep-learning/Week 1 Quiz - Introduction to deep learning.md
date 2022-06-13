@@ -38,6 +38,16 @@
 - [x] **Faster computation can help speed up how long a team takes to iterate to a good idea.**
 - [ ] Recent progress in deep learning algorithms has allowed us to train good models faster (even without changing the CPU/GPU hardware).
 - [ ] It is faster to train on a big dataset than a small dataset.
+- [x] **Experiments finish faster, producing better ideas through increased iteration tempo.**
+```
+📌 The experiments help to test ideas, by getting the feedback from the experiments new variations can be tested can be tested and the results might indicate new directions to explore.
+```
+- [ ] Without better hardware, there is no way to train models faster.
+- [x] **Some algorithms are specifically designed to run experiments faster**
+```
+📌 Some algorithms look specifically to improve the time needed to run an experiment and thus enable us to produce better models.
+```
+- [ ] With larger datasets, the iteration process is faster.
 
 
 ### 4. When experienced deep learning engineers work on a new problem, they can usually use insight from previous problems to train a good model on the first try, without needing to iterate multiple times through different models. True/False?
@@ -118,6 +128,7 @@
 📌 The graph shows that after a certain amount of data is fed to a NN it stops increasing its performance. To increase the performance it is necessary to use a larger model.
 ```
 - [ ] Assuming the trends described in the figure are accurate. The performance of a NN depends only on the size of the NN.
+- [ ] From the given diagram, we can deduce that Large NN models are always better than traditional learning algorithms.
 
 ### 11. Which of the following are reasons that didn't allow Deep Learning to be developed during the '80s?
 - [x] **Interesting applications such as image recognition require large amounts of data that were not available.**
@@ -181,12 +192,12 @@
 
 ### 18. Which of these are reasons for Deep Learning recently taking off? (Check the three options that apply.)
 - [ ] Neural Networks are a brand new field.
-- [x] We have access to a lot more computational power.
+- [x] **We have access to a lot more computational power.**
 ```
 📌 The develpoment of hardware, perhaps especially GPU computing, has significantly improved deep learning algorithms' performance.
 ```
-- [x] Deep learning has resulted in significant improvements in important applications such as online advertising, speech recognition, and image recognition.
-- [x] We have access to a lot more data.
+- [x] **Deep learning has resulted in significant improvements in important applications such as online advertising, speech recognition, and image recognition.**
+- [x] **We have access to a lot more data.**
 ```
 📌 The digitalization of our society has played a huge role in this.
 ```
@@ -195,7 +206,7 @@
 ### 19. Which of the following are some aspects in which AI has transformed business?
 - [ ] Creating an AI-powered society.
 - [ ] Eliminating the need for health care services.
-- [x] Web searching and advertisement.
+- [x] **Web searching and advertisement.**
 ```
 📌 AI has helped to make a fit between services or results and consumers or queries.
 ```
@@ -204,7 +215,21 @@
 
 ### 20. RNNs (Recurrent Neural Networks) are good for data with a temporal component. True/False?
 - [ ] True
-- [x] False
+- [x] **False**
 ```
 📌 RNN are good to work with sequences, and the elements of the sequence can b e sorted by a temporal component.
 ```
+
+
+### 21. Which of the following are examples of unstructured data? Choose all that apply.
+- [ ] Text describing size and number of pages of books.
+- **[x] Sound files for speech recognition.**
+```
+📌 Audio is an example of "unstructured" data.
+```
+- **[x] Images for bird recognition.**
+```
+📌 Images are an example of "unstructured" data.
+```
+- [ ] Information about elephants'weight, height, age, and the number of offspring.
+
