@@ -121,4 +121,5 @@ c = a*b
 **What is the output of J?**
 - [x] **a^2 - b^2**
 - [ ] ...
+
 📌 $J=r+s=u \times v+w \times x=(a+b) \times (a-b)+(b+c) \times (b-c)=a^2-b^2+b^2-c^2=a^2-c^2$
