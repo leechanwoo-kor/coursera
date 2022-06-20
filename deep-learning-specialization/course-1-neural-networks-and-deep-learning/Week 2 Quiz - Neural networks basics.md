@@ -3,14 +3,14 @@
 ### 1. What does a neuron compute?
 - [ ] A neuron computes a linear function $z = Wx + b$ followed by an activation function.
 - [ ] A neuron computes the mean of all features before applying the output to an activation function.
-- [x] **A neuron computes an activation function followed by a linear function $z = Wx + b$.**
+- [x] **A neuron computes an activation function followed by a linear function z = Wx + b.**
 - [ ] A neuron computes a function g that scales the input x linearly (Wx + b)
 ```
 📌 We generally say that the output of a neuron is a = g(Wx + b) where g is the activation function (sigmoid, tanh, ReLU, ...).
 ```
 
 ### 2. Which of thes is the "Logistic Loss"?
-- [x] **$L^{(i)}(\hat{y}^{(i)},y^{(i)})=-(y^{(i)}\log{\hat{y}^{(i)}})+(1-y^{(i))\log{1-\hat{y}^{(i)})$**
+- [x] **L^{(i)}(\hat{y}^{(i)},y^{(i)})=-(y^{(i)}\log{\hat{y}^{(i)}})+(1-y^{(i))\log{1-\hat{y}^{(i)})**
 - [ ] ...
 
 📌 $L^{(i)}(\hat{y}^{(i)},y^{(i)})=-(y^{(i)} \log{ \hat{y}^{(i)} }) + (1-y^{(i)})\log{(1-\hat{y}^{(i)})})$
@@ -119,6 +119,6 @@ c = a*b
 ### 10. Consider the following computational graph.
 ![image](https://user-images.githubusercontent.com/55765292/174533750-d174feff-815d-47c8-92b8-73d97add1f18.png)
 **What is the output of J?**
-- [x] **$a^2 - b^2$**
+- [x] **a^2 - b^2**
 - ...
 📌 $J=r+s=u \times v+w \times x=(a+b) \times (a-b)+(b+c) \times (b-c)=a^2-b^2+b^2-c^2=a^2-c^2$
