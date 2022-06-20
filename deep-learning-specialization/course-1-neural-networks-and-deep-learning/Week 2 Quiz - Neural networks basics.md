@@ -1,5 +1,6 @@
 ## Week 1 Quiz - Introduction to deep learning
 
+
 ### 1. What does a neuron compute?
 - [ ] A neuron computes a linear function $z = Wx + b$ followed by an activation function.
 - [ ] A neuron computes the mean of all features before applying the output to an activation function.
@@ -8,6 +9,7 @@
 ```
 📌 We generally say that the output of a neuron is a = g(Wx + b) where g is the activation function (sigmoid, tanh, ReLU, ...).
 ```
+
 
 ### 2. Which of thes is the "Logistic Loss"?
 - [x] **L^{(i)}(\hat{y}^{(i)},y^{(i)})=-(y^{(i)}\log{\hat{y}^{(i)}})+(1-y^{(i))\log{1-\hat{y}^{(i)})**
@@ -117,7 +119,9 @@ c = a*b
 
 
 ### 10. Consider the following computational graph.
+
 ![image](https://user-images.githubusercontent.com/55765292/174533750-d174feff-815d-47c8-92b8-73d97add1f18.png)
+
 **What is the output of J?**
 - [x] **a^2 - b^2**
 - [ ] ...
