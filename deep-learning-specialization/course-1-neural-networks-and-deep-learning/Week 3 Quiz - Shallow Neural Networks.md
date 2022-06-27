@@ -2,6 +2,8 @@
 
 
 ### 1. Which of the following are true? (Check all that apply.)
+- [ ] $W^{[1]}$ is a matrix with rows equal to the parameter vector of the first layer.
+- [x] **$W^{[1]}$ is a matrix with rows equal to the transpose of the parameter vectors of the first layer**
 - [ ] $a^{{[3]}(2)}$ denotes the activation vector of the second layer for the third example.
 - [ ] $w_3^{[4]}$ is the column vector of parameters of the third layer and fourth neuron.
 - [x] **$w_3^{[4]}$ is the column vector of parameters of the fourth layer and third neuron.**
@@ -106,3 +108,36 @@ The number of columns in  $Z^{[1]}$ and $A^{[1]}$ is equal to the number of exam
 And the number of rows in $Z^{[1]}$ and $A^{[1]}$ is equal to the number of neurons in the first layer.
 ```
 
+### 11. The use of the ReLU activation function is becoming more rare because the ReLU function has no derivative for `c=0`. True/False?
+- [ ] True
+- [x] **False**
+
+```
+📌 Although the ReLU function has no derivative at `c = 0` this rarely causes any problems in practice.
+Moreover it  has become the default activation function in many cases, as explained in the lectures.
+```
+
+
+### 12. Suppose you have built a beural network with one hidden layer and tanh as activation function for the hidden layers. Which of the following is a best option to initialize the weights?
+- [ ] Initialize all weights to 0.
+- [ ] Initialize the weights to large random numbers.
+- [ ] Initialize all weights to a single number chosen randomly.
+- [x] **Initialize the weights to small random numbers.**
+
+```
+📌 When using large numbers the values $z^{[k]}$ will be large and thus the activation will have small gradients making the training process slower.
+```
+
+
+### 13. A single output and single layer neural network that uses the sigmoid function as activation is equivalent to the logistic regression. True/False
+- [ ] False
+- [x] True
+
+📌 The logistic regression model can be expressed by $\hat{y} = \sigma{(Wx+b)}$. this is the same as $a^{[1]} = \sigma{(W^{[1]}X+b)}$.
+
+
+---
+
+Prameters $W^{[l]}$ and $b^{[l]}$
+
+![image](https://user-images.githubusercontent.com/55765292/175869369-5e348793-7d38-4f18-9981-eb7e9ad2dfb5.png)
