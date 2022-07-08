@@ -25,7 +25,10 @@ However, this might cause an overfit to the dev set.
 ### 3. A model developed for a project is presenting high bias. One of the sponsors of the project offers some resources that might help reduce the bias. Which of the following additional resources has a better chance to help reduce the bias?
 - [ ] Use different sources to gather data and better test the model.
 - [ ] Gather more data for the project.
-- [ ] Give access to more computational resources like GPUs.
+- [x] **Give access to more computational resources like GPUs.**
+```
+📌 More test data won't help reduce the bias.
+```
 
 
 ### 4. You are working on an automated check-out kiosk for a supermarket, and are building a classifier for apples, bananas and oranges. Suppose your classifier obtains a training set error of 0.5%, and a dev set error of 7%. Which of the following are promising things to try to improve your classifier? (Check all that apply.)
@@ -33,6 +36,16 @@ However, this might cause an overfit to the dev set.
 - [ ] Decrease the regularization parameter lambda.
 - [x] **Get more training data.**
 - [ ] Use a bigger neural network.
+
+### 4-1. You are working on an automated check-out kiosk for a supermarket and are building a classifier for apples, bananas, and oranges. Suppose your classifier obtains a training set error of 19% and a dev set error of 21%. Which of the following are promising things to try to improve your classifier? (Check all that apply, suppose the human error is approximately 0%)
+- [ ] Increase the regularization parameter lambda
+- [ ] Decrease the regularization parameter lambda.
+- [ ] Get more training data.
+- [x] **Use a bigger neural network.**
+```
+📌 This can be helpful to reduce the bias of the model, 
+and then we can start trying to reduce the high variance if this happens.
+```
 
 
 ### 5. In every case it is a good practice to use dropout when training a deep neural network because it can help to prevent overfitting. True/False?
@@ -57,6 +70,7 @@ This helps reduce the variance.
 - [ ] In practice, it eliminates units of each layer with a probability of keep_prob.
 - [ ] In practice, it eliminates units of each layer with a probability of 1-keep_prob.
 - [ ] It helps to reduce the bias of a model.
+- [x] **It helps to reduce the variance of a model.**
 - [x] **It helps to reduce overfitting.**
 
 
@@ -86,3 +100,44 @@ increasing the regularization effect.
 ```
 📌 This shifts the mean of the input to the origin and makes the variance one in each coordinate of the input examples.
 ```
+
+
+### 11. When designing a neural network to detect if a house cat is present in the picture, 500,000 pictures of cats were taken by their owners. These are used to make the training, dev and test sets. It is decided that to increase the size of the test set, 10,000 new images of cats taken from security cameras are going to be used in the test set. Which of the following is true?
+- [ ] This will increase the bias of the model so the new images shouldn't be used.
+- [x] **This will be harmful to the project since now dev and test sets have different distributions.**
+- [ ] This will reduce the bias of the model and help improve it.
+```
+📌 This won't have a real effect on the bias of the model but will hinder the way we are measuring the performance.
+```
+
+
+### 12. What is weight decay?
+- [x] **A regularization technique (such as L2 regularization) that result in gradient descent shrinking the weights on every iteration.**
+- [ ] Gradual corruption of the weights in the neural network if it is trained on noisy data.
+- [ ] The process of gradually decreasing the learning rate during training.
+- [ ] A technique to avoid vanishing gradient by imposing a ceiling on the values of the weights.
+
+
+### 13. What happens when you increase the regularization hyperparameter lambda?
+- [ ] Doubling lambda should roughly result in doubling the weights.
+- [x] **Weights are pushed toward becoming smaller (closer to 0)**
+- [ ] Weights are pushed toward becoming bigger (further from 0)
+- [ ] Gradient descent taking bigger steps with each iteration (proportional to lambda)
+
+
+### 14. During training a deep neural network that uses the tanh activation function, the value of the gradients is practically zero. Which of the following is most likely to help the vanishing gradient problem?
+- [ ] Increase the number of layers of the network.
+- [ ] Use a larger regularization parameter.
+- [ ] Increase the number of cycles during the training.
+- [x] **Use Xavier initialization.**
+```
+📌 A careful initialization can help reduce the vanishing gradient problem.
+```
+
+
+### 15 .Which of the following actions increase the regularization of a model? (Check all that apply)
+- [ ] Use Xavier initialization.
+- [ ] Increase the value of keep_prob in dropout.
+- [x] **Decrease the value of keep_prob in dropout.**
+- [x] **Increase the value of the hyperparameter lambda.**
+- [ ] Decrease the value of the hyperparameter lambda.
