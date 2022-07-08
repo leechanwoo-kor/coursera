@@ -16,6 +16,7 @@ This repo contains all my work for this specialization. All the code base, quiz 
 
   - [Python Basics with Numpy (optional assignment)](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-1-neural-networks-and-deep-learning/Python_Basics_with_Numpy.ipynb)
   - [Logistic Regression with a Neural Network mindset](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-1-neural-networks-and-deep-learning/Logistic_Regression_with_a_Neural_Network_mindset.ipynb)
+  - [Planar data classification with one hidden layer](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-1-neural-networks-and-deep-learning/Planar_data_classification_with_one_hidden_layer.ipynb)
 
 - Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
 
@@ -32,8 +33,12 @@ This repo contains all my work for this specialization. All the code base, quiz 
 
   - [Week 1 Quiz - Introduction to deep learning](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/week-1-neural-networks-and-deep-learning/Week%201%20Quiz%20-%20Introduction%20to%20deep%20learning.md)
   - [Week 2 Quiz - Neural networks basics](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-1-neural-networks-and-deep-learning/Week%202%20Quiz%20-%20Neural%20networks%20basics.md)
+  - [Week 3 Quiz - Shallow Neural Networks](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-1-neural-networks-and-deep-learning/Week%203%20Quiz%20-%20Shallow%20Neural%20Networks.md)
+  - [Week 4 Quiz - Deep Neural Networks.md](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-1-neural-networks-and-deep-learning/Week%204%20Quiz%20-%20Deep%20Neural%20Networks.md)
 
 - Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
+
+  - [Week 1 Quiz - Practical aspects of Deep Learning](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-2-deep-neural-network/Week%201%20Quiz%20-%20Practical%20aspects%20of%20Deep%20Learning.md)
 
 - Course 3: Structuring Machine Learning Projects
 
@@ -45,3 +50,4 @@ This repo contains all my work for this specialization. All the code base, quiz 
 ## 📍 Milestones
 
   - **2022-06-13**: Start a new git repository! 👻
+  - **2022-07-06**: Finish Course 1: Neural Networks and Deep Learning! 👌
