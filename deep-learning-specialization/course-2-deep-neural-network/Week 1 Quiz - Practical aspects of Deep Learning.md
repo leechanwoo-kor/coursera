@@ -41,7 +41,7 @@ However, this might cause an overfit to the dev set.
 - [ ] Increase the regularization parameter lambda
 - [ ] Decrease the regularization parameter lambda.
 - [ ] Get more training data.
-- [x] **Use a bigger neural network.**
+- [x] **Use a bigger network.**
 ```
 📌 This can be helpful to reduce the bias of the model, 
 and then we can start trying to reduce the high variance if this happens.
@@ -82,6 +82,12 @@ This helps reduce the variance.
 📌 This will make the dropout have a higher probability of eliminating a node in the neural network,
 increasing the regularization effect.
 ```
+
+### 8-1. Increasing the parameter keep_prob from (say) 0.5 to 0.6 will likely cause the following: (Check the two that apply)
+- [ ] Increasing the regularization effect.
+- [x] **Reducing the regularization effect.**
+- [ ] Causing the neural network to end up with a higher training set error.
+- [x] **Causing the neural network to end up with a lower training set error.**
 
 
 ### 9. Which of these techniques are useful for reducing variance (reducing overfitting)? (Check all that apply.)
@@ -141,3 +147,29 @@ increasing the regularization effect.
 - [x] **Decrease the value of keep_prob in dropout.**
 - [x] **Increase the value of the hyperparameter lambda.**
 - [ ] Decrease the value of the hyperparameter lambda.
+
+
+### 16. If your Neural Network model seems to have high variance, what of the following would be promising things to try?
+- [ ] Increase the number of units in each hidden layer
+- [x] **Get more training data**
+- [x] **Add regularization**
+- [ ] Make the Neural Network deeper
+- [ ] Get more test data
+
+
+### 17. With the inverted dropout technique, at test time:
+- [ ] You apply dropout (randomly eliminating units) and do not keep the 1/keep_prob factor in the calculations used in training.
+- [ ] You apply dropout (randomly eliminating units) but keep the 1/keep_prob factor in the calculations used in training.
+- [x] **You do not apply dropout (do not randomly eliminate units) and do not keep the 1/keep_prob factor in the calculations used in training.**
+- [ ] You do not apply dropout (do not randomly eliminate units), but keep the 1/keep_prob factor in the calculations used in training.
+
+
+### 18. Suppose that a model uses, as one feature, the total number of kilometers walked by a person during a year, and another feature is the height of the person in meters. What is the most likely effect of normalization of the input data?
+- [ ] It will make the data easier to visualize.
+- [ ] It won't have any positive or negative effects.
+- [ ] It will increase the variance of the model.
+- [ ] It will make the training faster.
+```
+📌 It doesn't affect the visualization of the data,
+although in the 2 or 3 dimensions the dispersion plots look different.
+```
