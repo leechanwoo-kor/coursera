@@ -17,8 +17,14 @@ This repo contains all my work for this specialization. All the code base, quiz 
   - [Python Basics with Numpy (optional assignment)](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-1-neural-networks-and-deep-learning/Python_Basics_with_Numpy.ipynb)
   - [Logistic Regression with a Neural Network mindset](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-1-neural-networks-and-deep-learning/Logistic_Regression_with_a_Neural_Network_mindset.ipynb)
   - [Planar data classification with one hidden layer](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-1-neural-networks-and-deep-learning/Planar_data_classification_with_one_hidden_layer.ipynb)
+  - [Building your Deep Neural Network: Step by Step](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-1-neural-networks-and-deep-learning/Building_your_Deep_Neural_Network_Step_by_Step.ipynb)
+  - [Deep Neural Network for Image Classification: Application](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-1-neural-networks-and-deep-learning/Deep%20Neural%20Network%20-%20Application.ipynb)
 
 - Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
+
+  - [Initialization](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-2-deep-neural-network/Initialization.ipynb)
+  - [Regularization](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-2-deep-neural-network/Regularization.ipynb)
+  - [Gradient Checking](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-2-deep-neural-network/Gradient_Checking.ipynb)
 
 - Course 3: Structuring Machine Learning Projects
 
