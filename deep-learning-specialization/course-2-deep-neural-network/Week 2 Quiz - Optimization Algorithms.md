@@ -131,3 +131,8 @@
 - [x] (1) is gradient descent. (2) is gradient descent with momentum (small β). (3) is gradient descent with momentum (large β).
 - [ ] ...
 
+
+
+### 12. Which of the following statements about Adam is False?
+- [x] **Adam should be used with batch gradient computation, not with mini-batches.**
+- [ ] ...
