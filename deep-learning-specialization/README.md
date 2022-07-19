@@ -25,6 +25,7 @@ This repo contains all my work for this specialization. All the code base, quiz 
   - [Initialization](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-2-deep-neural-network/Initialization.ipynb)
   - [Regularization](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-2-deep-neural-network/Regularization.ipynb)
   - [Gradient Checking](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-2-deep-neural-network/Gradient_Checking.ipynb)
+  - [Optimization Methods](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-2-deep-neural-network/Optimization_methods.ipynb)
 
 - Course 3: Structuring Machine Learning Projects
 
@@ -45,6 +46,8 @@ This repo contains all my work for this specialization. All the code base, quiz 
 - Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
 
   - [Week 1 Quiz - Practical aspects of Deep Learning](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-2-deep-neural-network/Week%201%20Quiz%20-%20Practical%20aspects%20of%20Deep%20Learning.md)
+  - [Week 2 Quiz - Optimization Algorithms](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-2-deep-neural-network/Week%202%20Quiz%20-%20Optimization%20Algorithms.md)
+  - [Week 3 Quiz - Hyperparameter tuning, Batch Normalization, Programming Frameworks](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-2-deep-neural-network/Week%203%20Quiz%20-%20Hyperparameter%20tuning%2C%20Batch%20Normalization%2C%20Programming%20Frameworks.md)
 
 - Course 3: Structuring Machine Learning Projects
 
