@@ -60,3 +60,4 @@ This repo contains all my work for this specialization. All the code base, quiz 
 
   - **2022-06-13**: Start a new git repository! 👻
   - **2022-07-06**: Finish Course 1: Neural Networks and Deep Learning! 👌
+  - **2022-07-20**: Finish Course 2: Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization! 😊
