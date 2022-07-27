@@ -240,3 +240,10 @@ If your goal is to have “human-level performance” be a proxy (or estimate) f
 - [ ] Look at all the models you've developed during the development process and find the one with the lowest false negative error rate.
 - [ ] Pick false negative rate as the new matric, and use this new metric to drive all further development.
 
+
+### 22. After setting up your train/dev/test sets, the City Council comes across another 1,000,000 images, called the “citizens’ data”. Apparently the citizens of Peacetopia are so scared of birds that they volunteered to take pictures of the sky and label them, thus contributing these additional 1,000,000 images. These images are different from the distribution of images the City Council had originally given you, but you think it could help your algorithm.  <br> <br> Notice that adding this additional data to the training set will make the distribution of the training set different from the distributions of the dev and test sets.   <br> <br> Is the following statement true or false?   <br> <br> "You should not add the citizens' data to the training set, because if the training distribution is different from the dev and test sets, then this will not allow the model to perform well on the test set."
+
+- [ ] True
+- [x] **False**
+
+> 📌 Sometimes we'll need to train the model on the data that is available, and its distribution may not be the same as the data that will occur in production. Also, adding training data that differs from the dev set may still help the model improve performance on the dev set. What matters is that the dev and test set have the same distribution.
