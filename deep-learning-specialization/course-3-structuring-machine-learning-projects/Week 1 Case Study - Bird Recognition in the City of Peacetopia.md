@@ -33,6 +33,10 @@ You are delighted because this list of criteria will speed development and provi
 
 > 📌 More than one metric expands the choices and tradeoffs you have to decide for each with unknown effects on the other two.
 
+### 1-1. You meet with them and ask for just one evaluation metric. True/False?
+- [ ] True
+- [x] **False**
+
 
 ### 2. The city revises its criteria to:
 
@@ -48,6 +52,7 @@ Given models with different accuracies, runtimes, and memory sizes, how would yo
 - [ ] Find the subset of models that meet the runtime and memory criteria. Then, choose the highest accuracy.
 
 > 📌 You must still meet the thresholds for runtime and memory.
+> 📌 Because we don’t care how much a model minimizes runtime and memory under 10s and 10MB respectively, this method is not valid.
 
 
 ### 3. Based on the city’s requests, which of the following would you say is true?
@@ -79,9 +84,12 @@ Given models with different accuracies, runtimes, and memory sizes, how would yo
 ### 6. One member of the City Council knows a little about machine learning and thinks you should add the 1,000,000 citizens’ data images proportionately to the train/dev/test sets. You object because:
 
 - [ ] The 1,000,000 citizens' data images do not have a consistent x-->y mapping as the rest of the data.
+- [ ] A bigger test set will slow down the speed of iterating because of the computational expense of evaluating models on the test set.
 - [ ] The additional data would significantly slow down training time.
 - [ ] The training set will ent be as accurate because of the different distributions.
 - [x] **If we add the images to the test set then it won't reflect the distribution of data expected in production.**
+- [x] **This would cause the dev and test set distributions to become different. This is a bad idea because you're not aiming where you wnat to hit.**
+- [x] **The test set no longer reflects the distribution of data(security cameras) you most care about.** 
 
 > 📌 Using the data in the training set could be beneficial, but you wouldn't want to include such images in your test set as they are not from the expected distribution of data you'll see in production.
 
@@ -135,9 +143,24 @@ Given models with different accuracies, runtimes, and memory sizes, how would yo
 ### 12. After working on this project for a year, you finally achieve: Human-level performance, 0.10%, Training set error, 0.05%, Dev set error, 0.05%. Which of the following are likely? (Check all that apply.)
 
 - [x] **The model has recognized emergent features that humans cannot. (Chess and Go for example)**
+
+> 📌 When Google beat the world Go champion, it was recognized that it was making deeper moves than humans.
+
 - [ ] This result is not possible since it should not be possible to surpass human-level performance.
 - [ ] There is still avoidable bias.
-- [ ] Pushing to even higher accuracy will be slow because you will not be able to easily identify sources of bias.
+- [x] **Pushing to even higher accuracy will be slow because you will not be able to easily identify sources of bias.**
+
+> 📌 Exceeding human performance means you are close to Bayes error.
+
+
+### 12-1. After working on your algorithm you have to decide the next steps. Currently, human-level performance is 0.1%, training is at 2.0% and the dev set is at 2.1%. Which statement below best describes your thought process?
+
+- [ ] Get a bigger training set to reduce variance.
+- [ ] Decrease variance via regularization so training and dev sets have similar performance.
+- [x] **Decrease regularization to boost smaller signals.**
+- [x] **Address bias first through a larger model to get closet to human level error.**
+
+> 📌 Selecting the largest difference from (train set error - human level error) and (dev set error - train set error) and reducing bias or variance accordingly is the most productive step.
 
 
 ### 13. Your system is now very accurate but has a higher false negative rate than the City Council of Peacetopia would like. What is your best next step?
@@ -158,7 +181,7 @@ You have only 1,000 images of the new species of bird. The city expects a better
 - [ ] Put the 1,000 images into the training set so as to try to do better on these birds.
 - [ ] Try data augmentation/data synthesis to get more images of the new type of bird.
 - [ ] Add the 1,000 images into your dataset and reshuffle into a new train/dev/test split.
-- [ ] Use the data you have to define a new evaluation metric (using a new dev/test set) taking into account the new species, and use that to drive further progress for your team.
+- [x] **Use the data you have to define a new evaluation metric (using a new dev/test set) taking into account the new species, and use that to drive further progress for your team.**
 
 > 📌 The true data distribution is changed. It means you need to adjust your evaluation. Because you evaluate your learning algorithm on dev and test sets, adding more data only to the training set doesn't help the algorithm to perform better.
 
@@ -168,3 +191,52 @@ You have only 1,000 images of the new species of bird. The city expects a better
 - [x] **This significantly impacts iteration speed.**
 - [ ] Reducing the model complexity will allow the use of the larger data set but preserve accuracy.
 - [x] **Lowering the number of images will reduce training time and likely allow for an acceptable tradeoff between iteration speed and accuracy.**
+
+
+### 16. The essential difference between an optimizing metric and satisficing metrics is the priority assigned by the stakeholders. True/False?
+
+- [ ] True
+- [x] **False**
+
+> 📌 Satisficing metrics have thresholds for measurement and an optimizing metric is unbounded.
+
+
+### 17. You train a system, and the train/dev set errors are 3.5% and 4.0% respectively. You decide to try regularization to close the train/dev accuracy gap. Do you agree?
+
+- [x] **No, because you do not know what the human performance level is.**
+- [ ] ...
+
+> 📌 You need to know what the human performance level is to estimate avoidable bias.
+
+
+### 18. You ask a few people to label the dataset so as to find out what is human-level performance. You find the following levels of accuracy:
+
+- Bird watching expert #1 - 0.3% error
+- Bird watching expert #2 - 0.5% error
+- Normal person #1 (not a bird watching expert) - 1.0% error
+- Normal person #2 (not a bird watching expert) - 1.2% error
+
+If your goal is to have “human-level performance” be a proxy (or estimate) for Bayes error, how would you define “human-level performance”?
+
+- [x] **0.3% (accuracy of expert #1)**
+
+
+### 19. Which of the following statements do you agree with?
+- [x] **A learning algorithm's performance can be better than human-level performance but it can never be better than Bayes error.**
+- [ ] ...
+
+
+### 20. After running your model with the test set you find it is a 7.0% error compared to a 2.1% error for the dev set and 2.0% for the training set. What can you conclude? (Choose all that apply)
+- [x] **You have overfitted to the dev set.** 
+- [ ] You should try to get a bigger dev set.
+- [ ] Try decreasing regularization for better genenralization with the dev set.
+- [ ] You have underfitted to the dev set.
+
+
+### 21. It turns out Peacetopia has hired one of your competitors to build a system as well. Your system and your competitor both deliver systems with about the same running time and memory size. However, your system has higher accuracy! However, when Peacetopia tries out your and your competitor’s systems, they conclude they actually like your competitor’s system better, because even though you have higher overall accuracy, you have more false negatives (failing to raise an alarm when a bird is in the air). What should you do?
+
+- [x] **Rethink the appropriate metric for this task, and ask your team to tune to the new matric.**
+- [ ] Ask your team to take into account both accuracy and false negative rate during development.
+- [ ] Look at all the models you've developed during the development process and find the one with the lowest false negative error rate.
+- [ ] Pick false negative rate as the new matric, and use this new metric to drive all further development.
+
