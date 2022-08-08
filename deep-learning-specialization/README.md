@@ -51,6 +51,8 @@ This repo contains all my work for this specialization. All the code base, quiz 
 
 - Course 3: Structuring Machine Learning Projects
 
+  - [Week 1 Case Study - Bird Recognition in the City of Peacetopia](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-3-structuring-machine-learning-projects/Week%201%20Case%20Study%20-%20Bird%20Recognition%20in%20the%20City%20of%20Peacetopia.md)
+
 - Course 4: Convolutional Neural Networks
   
 - Course 5: Sequence Models
