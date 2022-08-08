@@ -1,4 +1,4 @@
-## Week 1 Case Study - Bird Recognition in the City of Peacetopia
+## Week 2 Case Study - Autonomous Driving
 
 
 ### quiz 1.
