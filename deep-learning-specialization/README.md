@@ -52,6 +52,7 @@ This repo contains all my work for this specialization. All the code base, quiz 
 - Course 3: Structuring Machine Learning Projects
 
   - [Week 1 Case Study - Bird Recognition in the City of Peacetopia](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-3-structuring-machine-learning-projects/Week%201%20Case%20Study%20-%20Bird%20Recognition%20in%20the%20City%20of%20Peacetopia.md)
+  - [Week 2 Case Study - Autonomous Driving](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-3-structuring-machine-learning-projects/Week%202%20Case%20Study%20-%20Autonomous%20Driving.md)
 
 - Course 4: Convolutional Neural Networks
   
@@ -63,3 +64,4 @@ This repo contains all my work for this specialization. All the code base, quiz 
   - **2022-06-13**: Start a new git repository! 👻
   - **2022-07-06**: Finish Course 1: Neural Networks and Deep Learning! 👌
   - **2022-07-20**: Finish Course 2: Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization! 😊
+  - **2022-08-08**: Finish Course 3: Structuring Machine Learning Projects! 😎
