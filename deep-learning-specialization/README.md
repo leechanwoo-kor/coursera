@@ -29,6 +29,8 @@ This repo contains all my work for this specialization. All the code base, quiz 
 
 - Course 3: Structuring Machine Learning Projects
 
+  - ~*No assignments.*~
+
 - Course 4: Convolutional Neural Networks
   
 - Course 5: Sequence Models
@@ -55,6 +57,9 @@ This repo contains all my work for this specialization. All the code base, quiz 
   - [Week 2 Case Study - Autonomous Driving](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-3-structuring-machine-learning-projects/Week%202%20Case%20Study%20-%20Autonomous%20Driving.md)
 
 - Course 4: Convolutional Neural Networks
+  
+  - [Week 1 Quiz - The Basics of ConvNets](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-4-convolutional-neural-network/Week%201%20Quiz%20-%20The%20Basics%20of%20ConvNets.md)
+  - [Week 2 Quiz - Deep Convolutional Models](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-4-convolutional-neural-network/Week%202%20Quiz%20-%20Deep%20Convolutional%20Models.md)
   
 - Course 5: Sequence Models
 
