@@ -32,6 +32,11 @@ This repo contains all my work for this specialization. All the code base, quiz 
   - ~*No assignments.*~
 
 - Course 4: Convolutional Neural Networks
+
+  - [Convolutional Neural Networks: Step by Step](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-4-convolutional-neural-network/Convolution_model_Step_by_Step_v1.ipynb)
+  - [Convolutional Neural Networks: Application](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-4-convolutional-neural-network/Convolution_model_Application.ipynb)
+  - [Residual Networks](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-4-convolutional-neural-network/Residual_Networks.ipynb)
+  - [Transfer Learning with MobileNetV2](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-4-convolutional-neural-network/Transfer_learning_with_MobileNet_v1.ipynb)
   
 - Course 5: Sequence Models
 
