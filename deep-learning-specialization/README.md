@@ -37,6 +37,8 @@ This repo contains all my work for this specialization. All the code base, quiz 
   - [Convolutional Neural Networks: Application](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-4-convolutional-neural-network/Convolution_model_Application.ipynb)
   - [Residual Networks](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-4-convolutional-neural-network/Residual_Networks.ipynb)
   - [Transfer Learning with MobileNetV2](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-4-convolutional-neural-network/Transfer_learning_with_MobileNet_v1.ipynb)
+  - [Autonomous Driving - Car Detection](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-4-convolutional-neural-network/Autonomous_driving_application_Car_detection.ipynb)
+  - [Image Segmentation with U-Net](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-4-convolutional-neural-network/Image_segmentation_Unet_v2.ipynb)
   
 - Course 5: Sequence Models
 
@@ -65,6 +67,7 @@ This repo contains all my work for this specialization. All the code base, quiz 
   
   - [Week 1 Quiz - The Basics of ConvNets](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-4-convolutional-neural-network/Week%201%20Quiz%20-%20The%20Basics%20of%20ConvNets.md)
   - [Week 2 Quiz - Deep Convolutional Models](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-4-convolutional-neural-network/Week%202%20Quiz%20-%20Deep%20Convolutional%20Models.md)
+  - [Week 3 Quiz - Detection Algorithms](https://github.com/leechanwoo-kor/coursera/blob/main/deep-learning-specialization/course-4-convolutional-neural-network/Week%203%20Quiz%20-%20Detection%20Algorithms.md)
   
 - Course 5: Sequence Models
 
