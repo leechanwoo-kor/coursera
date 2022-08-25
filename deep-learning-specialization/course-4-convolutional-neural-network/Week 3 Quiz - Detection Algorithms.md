@@ -1,4 +1,4 @@
-## Week 2 Quiz - Detection Algorithms
+## Week 3 Quiz - Detection Algorithms
 
 #### 1. You are building a 3-class object classification and localization algorithm. The classes are: pedestrian (c=1), car (c=2), motorcycle (c=3). What should $y$ be for the image below? Remember that “?” means “don’t care”, which means that the neural network loss function won’t care what the neural network gives for that component of the output. Recall $y = [p_c, b_x, b_y, b_h, b_w, c_1, c_2, c_3]$.
 
