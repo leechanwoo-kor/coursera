@@ -25,12 +25,15 @@
 
 - [ ] $\hat{y}^{(i)}$ has shape (1, 2N)
 - [ ] $\hat{y}^{(i)}$ has shape (N, 1)
-- [ ] $\hat{y}^{(i)}$ has shape (2N, 1)
+- [x] **$\hat{y}^{(i)}$ has shape (2N, 1)**
 - [ ] $\hat{y}^{(i)}$ stores the probability that a landmark is in a given position over the face.
 
 > 📌 Since we have two coordinates (x,y) for each landmark we have N of them.
 
 #### 4. When training one of the object detection systems described in the lectures, you need a training set that contains many pictures of the object(s) you wish to detect. However, bounding boxes do not need to be provided in the training set, since the algorithm can learn to detect the objects by itself.
+
+- [ ] True
+- [x] **False**
 
 > 📌 You need bounding boxes in the training set. Your loss function should try to match the predictions for the bounding boxes to the true bounding boxes from the training set.
 
@@ -154,7 +157,7 @@
 - [x] **X = 2, Y = -6, Z = -4**
 - [ ] ...
 
-#### When using the U-Net architecture with an input h\times w \times ch×w×c, where cc denotes the number of channels, the output will always have the shape h \times w \times ch×w×c. True/False?
+#### 10. When using the U-Net architecture with an input $h\times w \times c$, where $c$ denotes the number of channels, the output will always have the shape $h \times w \times c$. True/False?
 
 - [ ] True
 - [x] **False**
