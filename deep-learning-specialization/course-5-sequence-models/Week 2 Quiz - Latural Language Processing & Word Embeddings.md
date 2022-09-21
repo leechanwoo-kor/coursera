@@ -23,6 +23,7 @@
 |Having a great time!|1|
 |I'm sad it's raining.|0|
 |I'm feeling awesome!|1|
+
 **Even if the word “wonderful” does not appear in your small training set, what label might be reasonably expected for the input text “I feel wonderful!”?**
 - [x] y=1
 - [ ] y=0
