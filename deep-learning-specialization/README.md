@@ -44,6 +44,14 @@ This repo contains all my work for this specialization. All the code base, quiz 
   
 - Course 5: Sequence Models
 
+  - [Building your Recurrent Neural Network - Step by Step](./course-5-sequence-models/Building_a_Recurrent_Neural_Network_Step_by_Step.ipynb)
+  - [Character level language model - Dinosaurus Island](./course-5-sequence-models/Dinosaurus_Island_Character_level_language_model.ipynb)
+  - [Improvise a Jazz Solo with an LSTM Network](./course-5-sequence-models/Improvise_a_Jazz_Solo_with_an_LSTM_Network_v4.ipynb)
+  - [Operations on Word Vectors](./course-5-sequence-models/Operations_on_word_vectors_v2a.ipynb)
+  - [Emojify!](./course-5-sequence-models/Emoji_v3a.ipynb)
+  - [Neural Machine Translation](./course-5-sequence-models/Neural_machine_translation_with_attention_v4a.ipynb)
+  - [Trigger Word Detection](./course-5-sequence-models/Trigger_word_detection_v2a.ipynb)
+  - [Transformer Network](./course-5-sequence-models/C5_W4_A1_Transformer_Subclass_v1.ipynb)
 
 ## ✍ Quiz Solutions
 
@@ -74,7 +82,11 @@ This repo contains all my work for this specialization. All the code base, quiz 
   
 - Course 5: Sequence Models
 
-
+  - [Week 1 Quiz - Recurrent Neural Networks](./course-5-sequence-models/Week%201%20Quiz%20-%20Recurrent%20Neural%20Networks.md)
+  - [Week 2 Quiz - Latural Language Processing & Word Embeddings](./course-5-sequence-models/Week%202%20Quiz%20-%20Latural%20Language%20Processing%20%26%20Word%20Embeddings.md)
+  - [Week 3 Quiz - Sequence Models & Attention Mechanism](./course-5-sequence-models/Week%203%20Quiz%20-%20Sequence%20Models%20%26%20Attention%20Mechanism.md)
+  - [Week 4 Quiz - Transformers](./course-5-sequence-models/Week%204%20Quiz%20-%20Transformers.md)
+  
 ## 📍 Milestones
 
   - **2022-06-13**: Start a new git repository! 👻
@@ -82,3 +94,8 @@ This repo contains all my work for this specialization. All the code base, quiz 
   - **2022-07-20**: Finish Course 2: Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization! 😊
   - **2022-08-08**: Finish Course 3: Structuring Machine Learning Projects! 😎
   - **2022-08-31**: Finish Course 4: Convolutional Neural Networks! 👺
+  - **2022-10-10**: Finish Course 5: Sequence Models! 😈
+
+<br>
+
+![image](https://user-images.githubusercontent.com/55765292/194801597-9084afd3-4446-4006-a617-e36c043117b0.png)
